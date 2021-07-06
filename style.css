@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{font-size: 40px;}
+
+
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{width: 100%;}
+
+.link_button{
+    text-decoration: none;
+  color: aliceblue;
+    background: purple;
+    padding: 2%;
+    border-radius: 5%;
+}
