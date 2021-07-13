@@ -1,25 +1,73 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+background-color:rgba(90, 119, 119, 0.335);
 }
-h1{font-size: 40px;}
-
-
-.orange-color{
-    color: orange;
+h1{
+    font-size: 40px;
+    margin: 0%;
 }
-section{
+.color-orange{
+    color:orange ;
+    
+}
+
+.flexible-container{
     display: flex;
+   margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding-left: 10px;
+   
+   
 }
-.half-width img{width: 100%;}
+.half-width img{
+    width: 50%;margin-top: 100px;
+    border-radius: 50px;
+}
 
-.link_button{
+
+.link-button{
+    background-color: purple;
     text-decoration: none;
-  color: aliceblue;
-    background: purple;
-    padding: 2%;
-    border-radius: 5%;
+    padding: 10px 40px;
+    border-radius:2px ;
+    color: white;
 }
+.about-me{
+    background-image: url(images/food/Project\ Cover4.png);
+    background-repeat: no-repeat;
+    
+}
+.my-area{}
+
+.kala-meya{
+     box-shadow: 10px 10px  40px rgb(12, 9, 9);
+    margin:auto;
+     padding:28px;
+     width:25% ;
+     border-radius: 20px;
+    
+}
+.kala-meya img{
+    width: 360px;
+  
+    padding:20px;
+  
+}
+.ba-lon{
+  
+    text-align: center;
+    padding-bottom: 100px;
+    width: 800px;
+    margin: auto;
+}
+.text-color{
+    color: white;
+}
+ footer{color:orange;
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+ }
